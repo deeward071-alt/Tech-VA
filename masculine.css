@@ -135,3 +135,8 @@ body{background:var(--paper);color:var(--ink);font-family:var(--sans)}h1,h2,h3{f
 @media (max-width: 740px) {
   .site-preview iframe { width: 1424px; height: 1280px; }
 }
+.contact-form-status[data-state="error"] {
+  border-left-color: #9b4f39;
+  background: #efe1dc;
+  color: #633a30;
+}
